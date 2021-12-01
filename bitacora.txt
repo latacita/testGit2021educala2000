@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+13      checkout master
+14                                  La fusión de la rama Lola sería por fast-forward
+                                    en este momento (sourcetree no muestra bifurcación).
+                                    Además, si no se ha fusionado otra rama previamente,
+                                    se puede hacer la fusión por fast-forward.
