@@ -9,3 +9,9 @@
 6      add .
 7      commit "Paso 7"
 8      checkout Lola
+10     add .
+11     commit "Paso 11"
+20     add .
+21     commit "Paso 21"
+22     checkout Lola
+23     stashes -> apply stash
