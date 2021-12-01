@@ -10,6 +10,11 @@
 2      branch -> new branch Paco    sin la opción de situarse en la rama
 3      branch -> new branch Lola    sin la opción de situarse en la rama
 4      checkout Paco
+6      add .
+7      commit "Paso 7"
+8      checkout Lola
+10     add .
+11     commit "Paso 11"
 13     checkout master
 14                                  La fusión de la rama Lola sería por fast-forward
                                     en este momento (sourcetree no muestra bifurcación).
@@ -21,3 +26,7 @@
                                                   pasos 1-4 y en master, los pasos 13-14.
                                                   El conflicto se resuelve reorganizándolos.
                                                   El tipo de fusión realizada ha sido recursiva
+20     add .
+21     commit "Paso 21"
+22     checkout Lola
+23     stashes -> apply stash
