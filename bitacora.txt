@@ -1,8 +1,12 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):  Argüelles Bueno, Eduardo            %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+1      clone
+2      branch -> new branch Paco    sin la opción de situarse en la rama
+3      branch -> new branch Lola    sin la opción de situarse en la rama
+4      checkout Paco
