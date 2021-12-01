@@ -22,11 +22,19 @@
                                     se puede hacer la fusión por fast-forward.
 16     add .
 17     commit "Paso 17"
-18     merge Paco into current branch (master)    da conflicto porque en Paco están los
+18     merge Paco into current branch (master)    Hay conflicto porque en Paco están los
                                                   pasos 1-4 y en master, los pasos 13-14.
                                                   El conflicto se resuelve reorganizándolos.
-                                                  El tipo de fusión realizada ha sido recursiva
+                                                  El tipo de fusión realizada ha sido recursiva.
 20     add .
 21     commit "Paso 21"
 22     checkout Lola
 23     stashes -> apply stash
+25     add .
+26     commit "Paso 26"
+27     checkout master
+28     merge Lola into current branch (master)    Hay conflicto porque en Lola están los
+                                                  pasos 6-8, 10-11 y 20-23 y en master,
+                                                  los pasos 1-4, 13-14 y 16-18.
+                                                  El conflicto se resuelve reorganizándolos.
+                                                  El tipo de fusión realizada ha sido recursiva.
